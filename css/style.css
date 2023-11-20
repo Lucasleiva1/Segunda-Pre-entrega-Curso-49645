@@ -1,0 +1,105 @@
+
+:root {
+    --blanco: #ffffff;
+    --oscuro: rgb(30, 29, 29);
+    --rojo-brillante: #f8010A;
+    --principal: rgb(237, 110, 110);
+    --secundario: #c2c3cc;
+    --fuente: font-family: 'Bebas Neue', sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* barra navegacion */
+
+
+.navbar-collapse {
+
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+
+
+}
+.personajes {
+    /* position: relative; */
+    background-color: var(--oscuro);
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    /* scrol suave */
+    scroll-behavior: smooth;
+   
+    padding: 15px;
+
+}
+
+/* quitar la barra de navegacion */
+/* .personajes::-webkit-scrollbar {
+    display: none;
+}
+ */
+.luchadores {
+
+    border: var(--oscuro);
+
+    margin: 10px;
+    text-align: center;
+
+}
+
+.luchador:hover {
+    -webkit-box-shadow: 0px 0px 15px 3px rgba(246, 238, 238, 0.45);
+    -moz-box-shadow: 0px 0px 15px 3px rgba(246, 238, 238, 0.45);
+    box-shadow: 0px 0px 15px 3px rgba(246, 238, 238, 0.45);
+    width: 260px;
+    height: 360px;
+    
+    font-weight: bold;
+
+}
+@media (min-width: 768px) {
+     .luchador:hover {
+    -webkit-box-shadow: 0px 0px 15px 3px rgba(246, 238, 238, 0.45);
+    -moz-box-shadow: 0px 0px 15px 3px rgba(246, 238, 238, 0.45);
+    box-shadow: 0px 0px 15px 3px rgba(246, 238, 238, 0.45);
+    width: 260px;
+    height: 360px;
+    transition: 0.5s ease;
+    font-weight: bold;
+
+}
+}
+
+
+
+.luchador {
+    -webkit-box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.79);
+    -moz-box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.79);
+    box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.79);
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+
+}
+
+.nombre {
+    background-color: black;
+    font-size: 20px;
+    color: var(--blanco);
+    text-decoration: none;
+    font-family: 'Permanent Marker', cursive;
+
+    border-radius: 5px;
+
+
+}
+
+
+
