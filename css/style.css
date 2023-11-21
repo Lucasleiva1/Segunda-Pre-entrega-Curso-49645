@@ -64,22 +64,14 @@
 }
 
 
-h1 {
 
-    color: var(--blanco);
-    font-size: 50px;
-    text-align: center;
-    padding: 15px;
-    /* font-family: 'Exo 2', sans-serif; */
-
-}
 
 header {
     background-color: rgb(14, 14, 14);
 }
 
 .container {
-
+    
 
     display: flex;
     align-items: center;
@@ -99,10 +91,13 @@ header {
 .row {
     background-color: rgb(14, 14, 14);
     text-align: center;
-        -webkit-box-shadow: -6px 5px 7px -1px rgba(0, 0, 0, 0.54);
-        -moz-box-shadow: -6px 5px 7px -1px rgba(0, 0, 0, 0.54);
-        box-shadow: -6px 5px 7px -1px rgba(0, 0, 0, 0.54);
-
+    -webkit-box-shadow: -6px 5px 7px -1px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: -6px 5px 7px -1px rgba(0, 0, 0, 0.54);
+    box-shadow: -6px 5px 7px -1px rgba(0, 0, 0, 0.54);
+    
+    
+    
+    
 }
 
 .portada {
@@ -110,13 +105,7 @@ header {
     padding: 0px 0px 40px 0px;
 }
 
-p {
-    font-size: 20px;
-    color: rgb(243, 242, 239);
-    padding: 20px;
-    font-family: 'Courgette', cursive;
-    text-shadow: 3px 3px 4px black;
-}
+
 
 
 .material-symbols-outlined {
@@ -132,10 +121,61 @@ p {
     border-radius: 50%;
 }
 
-.fondo {
-    background-color: var(--oscuro);
-    padding: 25px;
+main {
+    background-color: rgb(14, 14, 14);
 }
+/* titulos seleccion de personajes */
+
+h1{
+    font-size: 20px;
+    color: rgb(220, 211, 211);
+    font-family: 'Courgette', cursive;
+}
+
+
+h2{
+    color: rgb(220, 211, 211);
+    font-family: 'Rubik Mono One', monospace; 
+text-shadow: 3px 3px 4px black;
+
+}
+
+/* p{
+background-color: #47288f;
+border-style: solid;
+border-width: 5px ;
+border-color: black;
+padding: 80px;
+text-align: center;
+}
+h4{
+    background-color: #efb810;
+    border-style: solid;
+    border-width: 5px ;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
+}
+h5{
+   background-color:  #fc4b08;
+   border-style: solid;
+   border-width: 5px ;
+   border-color: black;
+   text-align: center;
+}
+h6{
+  background-color: #00003d;
+  border-style: solid;
+  border-width: 5px ;
+  border-color: black;
+  text-align: center;
+  
+} */
+
 
 .botones {
     background-color: var(--oscuro);
@@ -282,7 +322,9 @@ p {
     -webkit-box-shadow: 0px 0px 4px 7px rgba(0, 0, 0, 0.79);
     -moz-box-shadow: 0px 0px 4px 7px rgba(0, 0, 0, 0.79);
     box-shadow: 0px 0px 4px 7px rgba(0, 0, 0, 0.79);
-}
+display: flex;
+    flex-direction: column;
+} 
 
 .espacio {
 
@@ -367,15 +409,8 @@ p {
 
 }
 
-h3 {
-   color: gold;
-   opacity: 0.8;
-   font-family: 'Permanent Marker', cursive;
-   text-align: center;
-   font-size: 30px;
-} 
+
 
 .movimientos {
-    display: flex;
-    flex-direction: column;
+   
 }
