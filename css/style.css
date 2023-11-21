@@ -49,6 +49,7 @@
 .nav-link {
     color: var(--rojo-brillante);
     opacity: 0.7;
+    text-shadow: 4px 4px 4px black;
 }
 
 .navbar-brand {
@@ -58,6 +59,7 @@
     opacity: 0.5;
     display: flex;
     text-align: center;
+    text-shadow: 4px 4px 5px black;
 
 }
 
@@ -272,4 +274,108 @@ p {
     border-radius: 5px;
 
 
+}
+
+ /* imagenes movimientos */
+ .movimientos {
+    /* sombra */
+    -webkit-box-shadow: 0px 0px 4px 7px rgba(0, 0, 0, 0.79);
+    -moz-box-shadow: 0px 0px 4px 7px rgba(0, 0, 0, 0.79);
+    box-shadow: 0px 0px 4px 7px rgba(0, 0, 0, 0.79);
+}
+
+.espacio {
+
+    background-color: var(--oscuro);
+    height: 250px;
+    text-align: center;
+    margin: 40px 0 40px 0;
+    border-radius: 50px;
+
+
+
+}
+
+.espacio .logo-xbox {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 40px;
+
+}
+
+.espacio p {
+    color: var(--blanco);
+    font-size: 20px;
+    color: rgb(179, 245, 114);
+    text-transform: uppercase;
+    word-spacing: 5px;
+
+}
+
+.espacio h2 {
+    color: var(--oscuro);
+
+}
+
+.parrafo {
+    background-color: black;
+    display: flex;
+    text-align: center;
+}
+
+.titulo-parrafo {
+    background-color: var(--principal);
+    padding: 0.5px;
+    width: 250px;
+    height: 250px;
+
+}
+
+.parrafo h2 {
+    margin: 25px;
+    text-align: center;
+
+}
+
+.parrafo p {
+    color: #ffffff;
+    margin: 15px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: var(--oscuro);
+    padding: 25px;
+
+
+}
+
+.copy {
+    color: var(--blanco);
+    text-align: center;
+
+}
+
+
+/* Movimientos */
+.header-movimientos {
+    background-color: var(--oscuro);
+    padding: 20px;
+
+}
+
+h3 {
+   color: gold;
+   opacity: 0.8;
+   font-family: 'Permanent Marker', cursive;
+   text-align: center;
+   font-size: 30px;
+} 
+
+.movimientos {
+    display: flex;
+    flex-direction: column;
 }
