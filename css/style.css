@@ -1,4 +1,3 @@
-
 :root {
     --blanco: #ffffff;
     --oscuro: rgb(30, 29, 29);
@@ -12,11 +11,22 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
 /* barra navegacion */
 
+.navbar {
+
+    -webkit-box-shadow: -6px 5px 7px -1px rgba(0, 0, 0, 0.54);
+        -moz-box-shadow: -6px 5px 7px -1px rgba(0, 0, 0, 0.54);
+        box-shadow: -6px 5px 7px -1px rgba(0, 0, 0, 0.54);
+        padding: 25px;
+
+
+
+}
 
 .navbar-collapse {
 
@@ -26,7 +36,169 @@
 
 
 
+
 }
+
+.navbar-toggler {
+    color: #262629;
+}
+
+.navbar-toggler-icon {}
+
+/* palabras navegacion */
+.nav-link {
+    color: var(--rojo-brillante);
+    opacity: 0.7;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    color: var(--rojo-brillante);
+    font-family: 'Ephesis', cursive;
+    opacity: 0.5;
+    display: flex;
+    text-align: center;
+
+}
+
+
+h1 {
+
+    color: var(--blanco);
+    font-size: 50px;
+    text-align: center;
+    padding: 15px;
+    /* font-family: 'Exo 2', sans-serif; */
+
+}
+
+header {
+    background-color: rgb(14, 14, 14);
+}
+
+.container {
+
+
+    display: flex;
+    align-items: center;
+
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 80px;
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+
+.row {
+    background-color: rgb(14, 14, 14);
+    text-align: center;
+        -webkit-box-shadow: -6px 5px 7px -1px rgba(0, 0, 0, 0.54);
+        -moz-box-shadow: -6px 5px 7px -1px rgba(0, 0, 0, 0.54);
+        box-shadow: -6px 5px 7px -1px rgba(0, 0, 0, 0.54);
+
+}
+
+.portada {
+   
+    padding: 0px 0px 40px 0px;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(243, 242, 239);
+    padding: 20px;
+    font-family: 'Courgette', cursive;
+    text-shadow: 3px 3px 4px black;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.icono{
+    width: 5px;
+    background-color: var(--rojo-brillante);
+    border-radius: 50%;
+}
+
+.fondo {
+    background-color: var(--oscuro);
+    padding: 25px;
+}
+
+.botones {
+    background-color: var(--oscuro);
+    display: flex;
+    justify-content: end;
+}
+
+/* Flechas deslizantes */
+#izquierdo {
+
+    width: 1px;
+}
+
+#derecho {
+    width: 1px;
+
+
+}
+
+@media (min-width: 768px) {
+
+
+    #izquierdo {
+
+
+        width: 60px;
+        border-radius: 50%;
+        margin: 2px;
+
+    }
+
+    #derecho {
+
+        width: 60px;
+        border-radius: 50%;
+        margin: 2px;
+    }
+}
+
+#derecho:hover {
+    -webkit-box-shadow: 0px 0px 4px 2px rgba(229, 225, 225, 0.57);
+    -moz-box-shadow: 0px 0px 4px 2px rgba(229, 225, 225, 0.57);
+    box-shadow: 0px 0px 4px 2px rgba(229, 225, 225, 0.57);
+    width: 65px;
+    color: var(--oscuro);
+    transition: 0.4s ease;
+    font-weight: bold;
+
+
+    cursor: pointer;
+}
+
+#izquierdo:hover {
+    -webkit-box-shadow: 0px 0px 4px 2px rgba(229, 225, 225, 0.57);
+    -moz-box-shadow: 0px 0px 4px 2px rgba(229, 225, 225, 0.57);
+    box-shadow: 0px 0px 4px 2px rgba(229, 225, 225, 0.57);
+    width: 65px;
+    color: var(--oscuro);
+    transition: 0.4s ease;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
 .personajes {
     /* position: relative; */
     background-color: var(--oscuro);
@@ -35,16 +207,16 @@
     overflow-x: auto;
     /* scrol suave */
     scroll-behavior: smooth;
-   
+
     padding: 15px;
 
 }
 
 /* quitar la barra de navegacion */
-/* .personajes::-webkit-scrollbar {
+.personajes::-webkit-scrollbar {
     display: none;
 }
- */
+
 .luchadores {
 
     border: var(--oscuro);
@@ -60,21 +232,22 @@
     box-shadow: 0px 0px 15px 3px rgba(246, 238, 238, 0.45);
     width: 260px;
     height: 360px;
-    
+
     font-weight: bold;
 
 }
+
 @media (min-width: 768px) {
-     .luchador:hover {
-    -webkit-box-shadow: 0px 0px 15px 3px rgba(246, 238, 238, 0.45);
-    -moz-box-shadow: 0px 0px 15px 3px rgba(246, 238, 238, 0.45);
-    box-shadow: 0px 0px 15px 3px rgba(246, 238, 238, 0.45);
-    width: 260px;
-    height: 360px;
-    transition: 0.5s ease;
-    font-weight: bold;
+    .luchador:hover {
+        -webkit-box-shadow: 0px 0px 15px 3px rgba(246, 238, 238, 0.45);
+        -moz-box-shadow: 0px 0px 15px 3px rgba(246, 238, 238, 0.45);
+        box-shadow: 0px 0px 15px 3px rgba(246, 238, 238, 0.45);
+        width: 260px;
+        height: 360px;
+        transition: 0.5s ease;
+        font-weight: bold;
 
-}
+    }
 }
 
 
@@ -100,6 +273,3 @@
 
 
 }
-
-
-
