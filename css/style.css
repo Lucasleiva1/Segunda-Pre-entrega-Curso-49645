@@ -20,9 +20,9 @@
 .navbar {
 
     -webkit-box-shadow: -6px 5px 7px -1px rgba(0, 0, 0, 0.54);
-        -moz-box-shadow: -6px 5px 7px -1px rgba(0, 0, 0, 0.54);
-        box-shadow: -6px 5px 7px -1px rgba(0, 0, 0, 0.54);
-        padding: 25px;
+    -moz-box-shadow: -6px 5px 7px -1px rgba(0, 0, 0, 0.54);
+    box-shadow: -6px 5px 7px -1px rgba(0, 0, 0, 0.54);
+    padding: 25px;
 
 
 
@@ -68,11 +68,11 @@
 
 header {
     background-color: rgb(14, 14, 14);
-   
+
 }
 
 .container {
-    
+
 
     display: flex;
     align-items: center;
@@ -102,7 +102,7 @@ header {
 } */
 
 .portada {
-   
+
     padding: 0px 0px 40px 0px;
 }
 
@@ -110,13 +110,14 @@ header {
 
 
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
 }
-.icono{
+
+.icono {
     width: 5px;
     background-color: var(--rojo-brillante);
     border-radius: 50%;
@@ -125,43 +126,45 @@ header {
 main {
     background-color: rgb(14, 14, 14);
 }
+
 /* titulos seleccion de personajes */
 
-h1{
+h1 {
     font-size: 20px;
     color: rgb(220, 211, 211);
     font-family: 'Courgette', cursive;
 }
 
 
-h2{
+h2 {
     color: rgb(220, 211, 211);
-    font-family: 'Rubik Mono One', monospace; 
-text-shadow: 3px 3px 4px black;
-padding: 80px;
+    font-family: 'Rubik Mono One', monospace;
+    text-shadow: 3px 3px 4px black;
+    padding: 80px;
 
 }
 
-h3{
+h3 {
     color: beige;
     font-size: 30px;
-background-color: #47288f;
-border-style: solid;
-border-width: 8px ;
-border-color: black;
-padding: 80px;
-text-align: center;
-font-family: "Bangers",cursive;
-text-shadow: 3px 3px 4px black;
+    background-color: #47288f;
+    border-style: solid;
+    border-width: 8px;
+    border-color: black;
+    padding: 80px;
+    text-align: center;
+    font-family: "Bangers", cursive;
+    text-shadow: 3px 3px 4px black;
 }
- .nombre {
+
+.nombre {
     background-color: black;
     font-size: 20px;
-   
+
     text-decoration: none;
     font-family: 'Permanent Marker', cursive;
     border-radius: 5px;
-} 
+}
 
 
 /* botones */
@@ -170,7 +173,7 @@ text-shadow: 3px 3px 4px black;
 .botones {
     background-color: var(--oscuro);
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
 }
 
 /* Flechas deslizantes */
@@ -306,15 +309,15 @@ text-shadow: 3px 3px 4px black;
 
 }
 
- /* imagenes movimientos */
- .movimientos {
+/* imagenes movimientos */
+.movimientos {
     /* sombra */
     -webkit-box-shadow: 0px 0px 4px 7px rgba(0, 0, 0, 0.79);
     -moz-box-shadow: 0px 0px 4px 7px rgba(0, 0, 0, 0.79);
     box-shadow: 0px 0px 4px 7px rgba(0, 0, 0, 0.79);
-display: flex;
+    display: flex;
     flex-direction: column;
-} 
+}
 
 .espacio {
 
@@ -385,15 +388,25 @@ display: flex;
 
 }
 
-.copy {
-    color: var(--blanco);
+
+
+
+/* Movimientos */
+
+
+.fondo-body {
+    background-color: rgb(14, 14, 14);
+}
+
+/* .contenedor {
+    align-items: center;
+    max-width: 1200px;
     text-align: center;
     
 
 }
 
-
-/* Movimientos */
+/* Movimientos 
 .header-movimientos {
     background-color: var(--oscuro);
     padding: 20px;
@@ -403,10 +416,28 @@ display: flex;
 
 
 .movimientos {
-   
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
+ */
 
 
 .footer {
+    font-size: 10px;
+    text-align: center;
+    padding: 50px;
+}
+
+.iconos-footer {
+    padding: 20px;
+}
+
+.copy {
+    color: var(--blanco);
+    text-align: center;
+
 
 }
