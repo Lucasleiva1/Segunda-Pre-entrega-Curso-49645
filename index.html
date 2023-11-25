@@ -3,11 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="lucas leiva">
+    <meta name="description" content="movimientos del mortal kombat 1 2023">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Mortal-Kombat-1</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href=img/img-iconos/j2.jpg>
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Google Fonts -->
     <!-- fuente: font-family: 'Ephesis', cursive;  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,19 +54,20 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <article class="navbar-toggler-icon"></article>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <a class="navbar-brand" href="#">lucas leiva</></a>
-                    <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                <div class="collapse navbar-collapse text-center" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="#"><img class="col-1 rounded-circle img-fluid"
+                            src="./css/img/img-iconos/i2.jpg" alt=""></></a>
+                    <ul class="navbar-nav ">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Novedades</a>
+                            <a class="nav-link" href="./novedades.html">Novedades</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
+                            <a class="nav-link" href="contacto.html">Contacto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Historia</a>
+                            <a class="nav-link" href="historia.html">Historia</a>
                         </li>
                     </ul>
 
@@ -70,26 +78,23 @@
             <div class="row">
                 <img class=" portada " src="/css/img/portadamk1.jpg" alt="portada-mk1">
 
-                <h1 class="col-12">El guardian del tiempo reinicia la historia y al no estar atado al pasado, crea una nueva era donde todos los seres tendran la oportunidad de vivir en paz. <img class="icono"
+                <h1 class="col-12 p-5">El guardian del tiempo reinicia la historia y al no estar atado al pasado, crea
+                    una
+                    nueva era donde todos los seres tendran la oportunidad de vivir en paz. <img class="icono"
                         src="./css/img/adjust_FILL0_wght400_GRAD0_opsz24.png" alt="icono"></h1>
 
             </div>
         </section>
-        <section class="container">
-            <div class="row">
+        <div class="container-fluid">
+            <div class="row ">
+                <iframe class="col-sm-12 col-lg-8  d-flex m-auto" width="460" height="415"
+                    src="https://www.youtube.com/embed/rRkavvt5x8o?si=RMl1FQFt6_sLncDq?start=10&autoplay=1&mute=1"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
 
-                <video controls autoplay muted loop>
-                    <source src="./css/videos/Mortal Kombat 1 - Tráiler oficial en Español Latino..mp4"
-                        type="video/mp4">
-
-                    <source src="./css/videos/Mortal Kombat 1 - Tráiler oficial en Español Latino..mp4"
-                        type="video/ogg">
-
-                    no funciona
-
-                </video>
             </div>
-        </section>
+        </div>
     </header>
 
     <main>
@@ -99,20 +104,7 @@
 
                 <h2 class="col-12 display-4 text-uppercase text-center">movimientos</h2>
 
-                <h3>Elige tu personaje para ver sus habilidades </h3>
-
-                < <!-- <p class="col-3">Ataques basicos </p>
-
-
-                    <p class="col-3 text-center">Especiales</p>
-
-
-                    <p class="col-3 display-6 ">fatality</p>
-
-
-                    <p class="col-3 text-center ">ataques aereos</p> -->
-
-            </div>
+                <h3>Elige tu personaje para ver sus habilidades </h3 </div>
         </section>
         <div class="botones">
             <img id="izquierdo" src="./css/img/fi.png" alt="flecha-i">
@@ -237,9 +229,9 @@
         </section>
 
         <section class="container ">
-            <div class="row d-flex">
-                <div id="carouselExampleSlidesOnly" class="carousel slide border col-sm-12 col-md-6 col-lg-  border-warning"
-                    data-bs-ride="carousel">
+            <div class="row">
+                <div id="carouselExampleSlidesOnly"
+                    class="carousel slide border col-sm-12 col-md-6 col-lg-  border-warning" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="./css/img/img-xbox/x1.jpg" class="d-block w-100" alt="x1">
@@ -253,21 +245,23 @@
 
                     </div>
                 </div>
-               <p class="col-sm-12 col-md-6 col-lg-4  text-center display-6 text-warning-emphasis m-4"> Los comandos que se muestran en la página
-                son específicos del joystick de la consola Xbox.</p>
+                <p class="col-sm-12- col-md-6 col-lg-4 display-6 tex-md-center text-warning-emphasis m-4"> Los comandos
+                    que se muestran en la página
+                    son específicos del joystick de la consola Xbox.</p>
             </div>
-             
         </section>
     </main>
 
     <footer class="footer">
         <div class="iconos-footer">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-xbox" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#009988" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-xbox" width="40"
+                height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#009988" fill="none" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                 <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
                 <path d="M6.5 5c7.72 2.266 10.037 7.597 12.5 12.5" />
                 <path d="M17.5 5c-7.72 2.266 -10.037 7.597 -12.5 12.5" />
-              </svg>
+            </svg>
         </div>
         <div class="copy">
             Software MORTAL KOMBAT 1 © 2023 Warner Bros. Entertainment Inc. Desarrollado por NetherRealm Studios.
